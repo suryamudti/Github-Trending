@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/thumbnail"
+        android:layout_width="@dimen/placeholderImage"
+        android:layout_height="@dimen/placeholderImage"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="@dimen/activityPadding"
+        android:layout_marginBottom="@dimen/repository_view_holder_margin"
+        android:background="@drawable/tr_red_shape_circle"
+        android:backgroundTint="@color/background" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="36dp"
+        android:layout_toRightOf="@id/thumbnail"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="@dimen/placeholderTextHeight"
+            android:background="@drawable/tr_shape_rectangle_grey" />
+
+        <View
+            android:layout_width="260dp"
+            android:layout_height="@dimen/placeholderTextHeight"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="@dimen/repository_view_holder_margin"
+            android:background="@drawable/tr_shape_rectangle_grey" />
+    </LinearLayout>
+    <View
+        android:layout_marginTop="16dp"
+        android:background="@color/dividerLineColor"
+        android:layout_below="@id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+
+</RelativeLayout>

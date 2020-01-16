@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gojek Trend App</string>
+    <string name="tr_toolbar_title">Trending</string>
+
+    <!--- Menu item -->
+    <string name="sort_by_stars">Sort by stars</string>
+    <string name="sort_by_names">Sort by name</string>
+
+    <!--- No Internet Connection -->
+    <string name="no_internet_connection_text">Something went wrong</string>
+    <string name="no_internet_connection_sub_text">An alien is probably blocking your signal</string>
+    <string name="no_internet_connection_retry_text">Retry</string>
+
+    <string name="welcome_fragment_text">Welcome to Trending Repository</string>
+    <string name="tr_repository_url">%s(%s)</string>
+    <string name="repo_url">http:\\www.google.comhttp:\\www.google.com</string>
+</resources>
