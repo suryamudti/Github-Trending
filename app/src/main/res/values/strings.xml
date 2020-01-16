@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gojek Trend App</string>
+    <string name="app_name">Github Trend App</string>
     <string name="tr_toolbar_title">Trending</string>
 
     <!--- Menu item -->
