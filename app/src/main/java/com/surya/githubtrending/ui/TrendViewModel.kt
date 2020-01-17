@@ -31,21 +31,15 @@ class TrendViewModel(
     /**
      * this function will sort the trend list by stars
      * */
-    fun sortByStars(){
-        Coroutines.io { repository.sortByStars() }
-    }
+    fun sortByStars() = Coroutines.io { repository.sortByStars() }
 
     /**
      * this function will sort the trend list by name
      * */
-    fun sortByName(){
-        Coroutines.io { repository.sortByName() }
-    }
+    fun sortByName() = Coroutines.io { repository.sortByName() }
 
     /**
      * this function will do request to Api without validation
      * */
-    fun forceFetch(){
-        Coroutines.main { repository.forceFetchToApi() }
-    }
+    fun forceFetch() = Coroutines.main { repository.forceFetchToApi() }
 }
