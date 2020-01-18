@@ -1,0 +1,1 @@
+C:\Android\GithubTrending\buildSrc\build\classes\kotlin\main\ApplicationId.class
