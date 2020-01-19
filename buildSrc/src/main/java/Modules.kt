@@ -3,7 +3,7 @@ object Modules {
     //parent app
     val app = ":app"
 
-    //feature
+    //features
     val trends = ":trends"
 
     //libraries

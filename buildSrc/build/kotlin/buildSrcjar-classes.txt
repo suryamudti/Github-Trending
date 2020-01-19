@@ -1,1 +1,1 @@
-C:\Android\GithubTrending\buildSrc\build\classes\kotlin\main\ApplicationId.class
+C:\Android\GithubTrending\buildSrc\build\classes\kotlin\main\ApplicationId.class;C:\Android\GithubTrending\buildSrc\build\classes\kotlin\main\Modules.class
