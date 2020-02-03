@@ -1,2 +1,13 @@
-include ':app'
-rootProject.name='GojekTrendApp'
+//app
+include Modules.app
+
+//features
+include Modules.movie
+include Modules.movieDetail
+
+//libraries
+include Modules.network
+include Modules.abstraction
+
+//data
+include Modules.data

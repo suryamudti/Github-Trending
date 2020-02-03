@@ -1,10 +1,15 @@
+/**
+ * Created by tokopedia on 31/07/19.
+ * github: @tokopedia
+ */
 
 object Modules {
     //parent app
     val app = ":app"
 
-    //features
-    val trends = ":trends"
+    //feature
+    val movie = ":feature:movie"
+    val movieDetail = ":feature:movie-detail"
 
     //libraries
     val network = ":libraries:network"
