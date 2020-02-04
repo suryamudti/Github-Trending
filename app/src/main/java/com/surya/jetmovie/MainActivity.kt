@@ -2,7 +2,7 @@ package com.surya.jetmovie
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.movie.ui.PopularMovieFragment
+import com.surya.trending.ui.PopularMovieFragment
 
 class MainActivity : AppCompatActivity() {
 

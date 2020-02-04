@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.example.movie_detail" >
+        package="com.surya.movie_detail" >
 
     <application>
-        <activity android:name=".ui.MovieDetailActivity">
+        <activity android:name="com.surya.movie_detail.ui.MovieDetailActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
 

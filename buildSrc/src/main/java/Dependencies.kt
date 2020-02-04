@@ -48,12 +48,20 @@ object Version {
     //jetpack
     const val archLifecycle = "2.0.0"
     const val recyclerView = "1.0.0"
+    const val room = "2.2.3"
+
+    //ui
+    const val expandableRecyclerView = "0.1.1"
+    const val swipeRefresh = "1.0.0"
+    const val circleImage = "3.0.1"
+    const val shimmer = "0.5.0@aar"
 
     //di
     const val dagger = "2.21"
 
     //misc
     const val deeplink = "4.1.0"
+    const val threeTenAbp = "1.2.1"
 
     //testing
     const val jUnit = "4.12"
@@ -72,12 +80,14 @@ object Android {
     val ktx = "androidx.core:core-ktx:${Version.ktx}"
     val gson = "com.google.code.gson:gson:${Version.gson}"
     val design = "com.google.android.material:material:${Version.material}"
+    val swipeRefresh = "androidx.swiperefreshlayout:swiperefreshlayout:${Version.swipeRefresh}"
 }
 
 object Jetpack {
     val lifecycle = "androidx.lifecycle:lifecycle-extensions:${Version.archLifecycle}"
     val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:${Version.archLifecycle}"
     val recyclerView = "androidx.recyclerview:recyclerview:${Version.recyclerView}"
+    val roomRuntime = "androidx.room:room-runtime:${Version.room}"
 }
 
 object Dependencies {
@@ -108,6 +118,12 @@ object Glide {
     val compiler = "com.github.bumptech.glide:compiler:${Version.glide}"
 }
 
+object UI{
+    val expandableRecyclerView = "io.github.hendraanggrian:expandablelayoutrecyclerview:${Version.expandableRecyclerView}"
+    val circleImageView = "de.hdodenhof:circleimageview:${Version.circleImage}"
+    val shimmerLayout = "com.facebook.shimmer:shimmer:${Version.shimmer}"
+}
+
 object Dagger {
     val dagger = "com.google.dagger:dagger:${Version.dagger}"
     val android = "com.google.dagger:dagger-android:${Version.dagger}"
@@ -135,6 +151,7 @@ object Testing {
 }
 
 object Misc {
+    val threeTenAbp = "com.jakewharton.threetenabp:threetenabp:${Version.threeTenAbp}"
     val deeplink = "com.airbnb:deeplinkdispatch:${Version.deeplink}"
     val deeplinkProcessor = "com.airbnb:deeplinkdispatch-processor:${Version.deeplink}"
 }

@@ -8,7 +8,7 @@ object Modules {
     val app = ":app"
 
     //feature
-    val movie = ":feature:movie"
+    val movie = ":feature:trending"
     val movieDetail = ":feature:movie-detail"
 
     //libraries

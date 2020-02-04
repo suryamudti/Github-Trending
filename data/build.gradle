@@ -10,6 +10,9 @@ dependencies {
     //coroutines
     implementation Coroutines.core
 
+    //room
+    implementation Jetpack.roomRuntime
+
     //modules
     implementation project(Modules.network)
     implementation project(Modules.abstraction)
