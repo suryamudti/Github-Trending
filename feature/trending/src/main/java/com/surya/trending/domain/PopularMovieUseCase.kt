@@ -20,5 +20,4 @@ class PopularMovieUseCase(
         private const val MOVIE_ERROR = "Aduh, gagal broo !!! "
     }
 
-
 }

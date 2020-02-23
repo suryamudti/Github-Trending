@@ -1,4 +1,4 @@
-package com.surya.jetmovie
+package com.surya.app
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
