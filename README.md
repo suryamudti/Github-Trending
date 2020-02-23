@@ -48,7 +48,7 @@ Tech stack included :
 
 ## Next Step : 
 
-- Implementing Modularization
+- Implementing Modularization (On Progress)
 - Implementing Jetpack Compose (Coming Soon)
 
 ## Authors
